@@ -29,14 +29,14 @@ exports.handler = async (event) => {
       `💬 Message:\n${text}`;
 
     await fetch(
-      `https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`,
+      `https://api.telegram.org/bot${process.env.8763298250:AAHcOTAare9VHsBSIu_DQGnrX_AqG0KdD9E}/sendMessage`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
-          chat_id: process.env.ADMIN_CHAT_ID,
+          chat_id: process.env.8834189732,
           text: messageToYou
         })
       }
